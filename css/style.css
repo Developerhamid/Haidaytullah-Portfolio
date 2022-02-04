@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Ubuntu&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --nav-color: rgb(47, 164, 231); /*Color for navigation hover and Headings */
+  --font1: "Baloo Bhaijaan 2", cursive; /*Navigation and Headings*/
+  --font2: "Ubuntu", sans-serif; /*for page*/
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* Navigation section */
+
+.navbar {
+  height: 65px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: var(--font1);
+}
+
+.logo a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+  color: black;
+}
+
+.logo a:hover {
+  text-decoration: underline;
+  color: #2fa4e7;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li {
+  list-style: none;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  margin: 0 16px;
+  color: black;
+  transition: all 0.2s ease-in;
+}
+
+.nav-list li a:hover {
+  text-decoration: underline;
+  color: var(--nav-color);
+}
+
+.hire a {
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+}
+
+.hire a:hover {
+  text-decoration: underline;
+  color: var(--nav-color);
+  font-size: 1.7rem;
+}
+
+/* Home section */
+
+.mainContainer {
+  max-width: 80vw;
+  margin: auto;
+}
+
+.homeContainer {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  font-family: var(--font2);
+}
+
+.homeImg {
+  width: 45vw;
+  text-align: center;
+}
+
+.homeImg img {
+  width: 90%;
+  box-sizing: border-box;
+  padding: 12px;
+  opacity: 0.9;
+  border-radius: 20px;
+}
+
+.big-text {
+  font-size: 2.5rem;
+  color: var(--nav-color);
+  line-height: 2;
+}
+
+.small-text {
+  font-size: 1.8rem;
+}
+
+.projectContainer {
+  height: 600px;
+}
+
+/* Project section */
+
+.projectContainer {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font2);
+}
+
+.projectList {
+  width: 45vw;
+}
+
+.projectList h1 {
+  font-size: 2.8rem;
+  text-decoration: underline;
+  color: var(--nav-color);
+}
+
+.projectImg {
+  width: 35vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectImg img {
+  width: 70%;
+  box-sizing: border-box;
+  padding: 75px 0;
+}
+
+.projectItems {
+  margin: 20px 0;
+}
+
+.projectHeading {
+  font-size: 1.3rem;
+  color: #434343;
+  line-height: 1.5;
+}
+
+.projectItems p {
+  font-size: 0.9rem;
+  color: #737373;
+  line-height: 1.5;
+}
+
+.projectItems a {
+  color: var(--nav-color);
+}
+
+.skillHeading {
+  font-size: 2rem;
+  color: var(--nav-color);
+  text-decoration: underline;
+}
+
+.educationContainer {
+  flex-direction: row-reverse;
+}
+
+.contactSection {
+  height: 200px;
+  font-family: var(--font2);
+}
+
+.contactSection h1 {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.contactImg {
+  display: flex;
+  align-items: center;
+}
+
+.projectHeading a {
+  margin: 0 5px;
+}
+
+.projectHeading img {
+  width: 35px;
+}
+
+.burgur {
+  display: none;
+  position: absolute;
+  font-size: 1.3rem;
+  right: 5%;
+  top: 10px;
+}
+
+.burgur:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: var(--nav-color);
+}

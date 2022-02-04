@@ -1,0 +1,39 @@
+@media screen and (max-width:1100px){
+    .navbar {
+        flex-direction: column;
+        height: 150px;
+        transition: all .5s ease;
+      }
+
+      .nav-hidden{
+          display: none;
+      }
+
+      .nav-height{
+        height: 55px;
+      }
+
+      .burgur{
+          display: inline-block;
+      }
+
+      .homeContainer {
+        flex-direction: column;
+        height: auto;
+      }
+
+      .homeIntro{
+        text-align: center;
+      }
+
+      .projectContainer{
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+        height: auto;
+      }
+
+      .skillContainer{
+          flex-direction: column;
+      }
+}
